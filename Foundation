@@ -2,17 +2,17 @@ int max=a;
 if(b>=max){
     max=b;
 }
-if(c>=max){
-    max=c;
+if(e>=max){
+    max=e;
 }
 if(max==a){
-    boolean flag=((b * b+c * c)==(a * a));
+    boolean flag=((b * b+e * e)==(a * a));
     System.out.println(flag);
 }else if(max==b){
     boolean flag=((a*a+c*c)==(b*b));
    System.out.println(flag);
 }else{
-     boolean flag=((b*b+a*a)==(c*c));
+     boolean flag=((b*b+a*a)==(e*e));
      System.out.println(flag);
 }
    }
